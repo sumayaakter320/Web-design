@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- To support all the languages available -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+</head>
+
+<body>
+    <!-- table tag -->
+    <!-- There are 3 default attribute of <table> tag: cellpadding, cellspacing and border -->
+    <!--
+        - cellpadding cell er vitore jayga ney
+        - cellspacing cell er baire jayga ne
+        - border cellspacing er pore jayga ne
+    -->
+    <table width="600" height="600" bgcolor="red" cellpadding="0" cellspacing="0" border="0">
+        <!-- NO attribute can be written in <tr> tag -->
+        <tr>
+            <!-- To create row divide height -->
+            <!-- To create col divide width -->
+            <td width="300" height="300" bgcolor="green">
+                <table width="300" height="300" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td width="150" height="150" bgcolor="pink">Data 5</td>
+                        <td width="150" height="150" bgcolor="#d11333">Data 7</td>
+                    </tr>
+                    <tr>
+                        <td width="150" height="150" bgcolor="#0851b1">
+                            <table width="150" height="150" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="150" height="50" bgcolor="#d0d325">
+                                        <table width="150" height="50" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td width="75" height="50" bgcolor="sky-blue">d17</td>
+                                                <td width="75" height="50" bgcolor="red">d18</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="150" height="50" bgcolor="#d34f03">Data 10</td>
+                                </tr>
+                                <tr>
+                                    <td width="150" height="50" bgcolor="#d31ada">
+                                        <table width="150" height="50" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td width="75" height="50" bgcolor="red">d12</td>
+                                                <td width="75" height="50" bgcolor="sky-blue">d13</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="150" height="150" bgcolor="#345253">
+                            <table width="150" height="150" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="75" height="75" bgcolor="pink">d14</td>
+                                    <td width="75" height="75" bgcolor="sky-blue">d16</td>
+                                </tr>
+                                <tr>
+                                    <td width="75" height="75" bgcolor="tomato">d15</td>
+                                    <td width="75" height="75" bgcolor="red">d15</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="300" height="300" bgcolor="blue">Data 3</td>
+        </tr>
+
+        <tr>
+            <td width="300" height="300" bgcolor="yellow">Data 2</td>
+            <td width="300" height="300" bgcolor="pink">Data 4</td>
+        </tr>
+    </table>
+</body>
+
+</html>
