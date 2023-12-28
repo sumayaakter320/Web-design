@@ -41,5 +41,13 @@ HTML, CSS and Basic JS will be taught in this course.
 ```
 
 - `<!DOCTYPE html>` - Document type
-- All links will be written in <head> tag
-- All contents will be written in <body> tag
+- All links will be written in `<head>` tag
+- All contents will be written in `<body>` tag
+
+<br>
+
+## CSS - Cascading Style Sheet
+To Learn more about CSS:
+<a href="https://www.w3schools.com/cssref/index.php">Click here</a>
+
+
