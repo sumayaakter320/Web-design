@@ -47,6 +47,15 @@ HTML, CSS and Basic JS will be taught in this course.
 <br>
 
 ## CSS - Cascading Style Sheet
+ <span>There are 3 ways to add CSS. </span>
+    <ol>
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </ol>
 
-To Learn more about CSS:
-<a href="https://www.w3schools.com/cssref/index.php" target="_blank" rel="noopener noreferrer">Click here</a>
+  <span>To Learn more about CSS properties - </span>
+  <a href="https://www.w3schools.com/cssref/index.php" target="_blank" rel="noopener noreferrer">Click here</a>
+
+
+
