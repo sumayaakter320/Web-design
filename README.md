@@ -49,4 +49,4 @@ HTML, CSS and Basic JS will be taught in this course.
 ## CSS - Cascading Style Sheet
 
 To Learn more about CSS:
-<a href="https://www.w3schools.com/cssref/index.php" target="_blank">Click here</a>
+<a href="https://www.w3schools.com/cssref/index.php" target="_blank" rel="noopener noreferrer">Click here</a>
