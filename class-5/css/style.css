@@ -1,0 +1,184 @@
+h1 {
+  color: red;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva, Verdana,
+    sans-serif;
+  text-align: center;
+  background: skyblue;
+}
+
+.main_table {
+  width: 600px;
+  height: 600px;
+  background: coral;
+  /* margin: 0 auto; */
+}
+
+.a1 {
+  width: 600px;
+  height: 200px;
+  background: red;
+}
+
+.a4 {
+  width: 300px;
+  height: 200px;
+  background: skyblue;
+  float: left;
+}
+
+.a6 {
+  width: 300px;
+  height: 50px;
+  background: red;
+}
+
+.a7 {
+  width: 300px;
+  height: 100px;
+  background: blue;
+}
+
+.a8 {
+  width: 300px;
+  height: 50px;
+  background: red;
+}
+
+.a5 {
+  width: 300px;
+  height: 200px;
+  background: tomato;
+  float: left;
+}
+
+.a9 {
+  width: 300px;
+  height: 100px;
+  background: orange;
+}
+
+.a11 {
+  width: 75px;
+  height: 100px;
+  background: green;
+  float: left;
+}
+
+.a12 {
+  width: 75px;
+  height: 100px;
+  background: pink;
+  float: left;
+}
+
+.a13 {
+  width: 75px;
+  height: 100px;
+  background: green;
+  float: left;
+}
+
+.a14 {
+  width: 75px;
+  height: 100px;
+  background: pink;
+  float: left;
+}
+
+.a10 {
+  width: 300px;
+  height: 100px;
+  background: deepskyblue;
+}
+
+.a15 {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  float: left;
+}
+
+.a16 {
+  width: 100px;
+  height: 100px;
+  background: orangered;
+  float: left;
+}
+
+.a17 {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  float: left;
+}
+
+.a2 {
+  width: 600px;
+  height: 200px;
+  background: blue;
+}
+
+.a18 {
+  width: 200px;
+  height: 200px;
+  background: pink;
+  float: left;
+}
+
+.a21 {
+  width: 200px;
+  height: 100px;
+  background: orange;
+}
+
+.a22 {
+  width: 200px;
+  height: 50px;
+  background: orangered;
+}
+
+.a23 {
+  width: 200px;
+  height: 50px;
+  background: orange;
+}
+
+.a19 {
+  width: 200px;
+  height: 200px;
+  background: skyblue;
+  float: left;
+}
+
+.a24 {
+    width: 100px;
+    height: 200px;
+    background: pink;
+    float: left;
+  }
+
+  .a25 {
+    width: 100px;
+    height: 200px;
+    background: blue;
+    float: left;
+  }
+
+.a20 {
+  width: 200px;
+  height: 200px;
+  background: pink;
+  float: left;
+}
+
+.a3 {
+  width: 600px;
+  height: 200px;
+  background: green;
+}
