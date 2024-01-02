@@ -55,27 +55,44 @@ ol {
   padding: 0 120px;
 }
 
-.main_menu h1{
+.main_menu h1 {
   color: #f1f1f1;
   font-size: 48px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva,
+    Tahoma, sans-serif;
   line-height: 80px;
   float: left;
 }
 
-.main_menu ul{
+.main_menu ul {
   text-align: center;
 }
 
-.main_menu ul li{
+.main_menu ul li {
   display: inline-block;
 }
 
 .main_menu ul li a {
   color: #333;
   font-size: 20px;
-  font-weight:600;
-  font-family:fantasy;
+  font-weight: 600;
+  font-family: fantasy;
   line-height: 80px;
   margin-left: 30px;
+  transition: all linear 0.4s;
+  -moz-transition: all linear
+    0.4s;
+  -o-transition: all linear
+    0.4s;
+  -ms-transition: all linear
+    0.4s;
+  -webkit-transition: all
+    linear 0.4s;
+  display: inline-block; 
+  /* <a> tag a margin/padding kaj koranor jonno display inline-block kore nite hoy */
+}
+
+.main_menu ul li a:hover {
+  color: #fff;
+  background: #333;
 }
