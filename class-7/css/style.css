@@ -64,11 +64,11 @@ ol {
 }
 
 .main_menu ul{
-  float: right;
+  text-align: center;
 }
 
 .main_menu ul li{
-  float: left;
+  display: inline-block;
 }
 
 .main_menu ul li a {
