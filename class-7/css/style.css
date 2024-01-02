@@ -47,3 +47,35 @@ ol {
     -50%
   );
 }
+
+/* Drop-down Menu CSS*/
+.main_menu {
+  height: 80px;
+  background: skyblue;
+  padding: 0 120px;
+}
+
+.main_menu h1{
+  color: #f1f1f1;
+  font-size: 48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 80px;
+  float: left;
+}
+
+.main_menu ul{
+  float: right;
+}
+
+.main_menu ul li{
+  float: left;
+}
+
+.main_menu ul li a {
+  color: #333;
+  font-size: 20px;
+  font-weight:600;
+  font-family:fantasy;
+  line-height: 80px;
+  margin-left: 30px;
+}
