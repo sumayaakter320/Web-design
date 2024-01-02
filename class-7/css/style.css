@@ -48,7 +48,7 @@ ol {
   );
 }
 
-/* Drop-down Menu CSS*/
+/* Main Menu CSS start */
 .main_menu {
   height: 80px;
   background: skyblue;
@@ -64,12 +64,15 @@ ol {
   float: left;
 }
 
-.main_menu ul {
-  text-align: center;
+.main_menu > ul {
+  /* text-align: center; */
+  padding-left: 30%;
 }
 
 .main_menu ul li {
-  display: inline-block;
+  /* display: inline-block; */
+  float: left;
+  position: relative;
 }
 
 .main_menu ul li a {
@@ -78,7 +81,7 @@ ol {
   font-weight: 600;
   font-family: fantasy;
   line-height: 80px;
-  margin-left: 30px;
+  padding: 0 20px;
   transition: all linear 0.4s;
   -moz-transition: all linear
     0.4s;
@@ -88,11 +91,36 @@ ol {
     0.4s;
   -webkit-transition: all
     linear 0.4s;
-  display: inline-block; 
+
   /* <a> tag a margin/padding kaj koranor jonno display inline-block kore nite hoy */
+  display: block;
 }
 
 .main_menu ul li a:hover {
   color: #fff;
-  background: #333;
+  background: #364d6e;
+}
+
+/* dropdown css start */
+.main_menu ul li .drop-down {
+  position: absolute;
+  background: #bdccd3;
+  left: 0;
+  width: 250px;
+  display: none;
+}
+
+.main_menu
+  ul
+  li
+  .drop-down
+  li {
+  width: 100%;
+}
+
+.main_menu
+  ul
+  li:hover
+  .drop-down {
+  display: block;
 }
