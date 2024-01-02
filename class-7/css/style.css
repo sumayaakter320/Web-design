@@ -51,7 +51,7 @@ ol {
 /* Main Menu CSS start */
 .main_menu {
   height: 80px;
-  background: skyblue;
+  background: #222;
   padding: 0 120px;
 }
 
@@ -76,7 +76,7 @@ ol {
 }
 
 .main_menu ul li a {
-  color: #333;
+  color: #f1f1f1;
   font-size: 20px;
   font-weight: 600;
   font-family: fantasy;
@@ -97,14 +97,14 @@ ol {
 }
 
 .main_menu ul li a:hover {
-  color: #fff;
-  background: #364d6e;
+  color: #333;
+  background: #f1f1f1;
 }
 
 /* dropdown css start */
 .main_menu ul li .drop-down {
   position: absolute;
-  background: #bdccd3;
+  background: #222;
   left: 0;
   width: 250px;
   display: none;
