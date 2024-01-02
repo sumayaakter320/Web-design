@@ -43,6 +43,7 @@ HTML, CSS and Basic JS will be taught in this course.
 - `<!DOCTYPE html>` - Document type
 - All links will be written in `<head>` tag
 - All contents will be written in `<body>` tag
+- Default width of `<div>` tag is 100%
 
 <br>
 
